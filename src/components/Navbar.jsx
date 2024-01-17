@@ -31,7 +31,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../pages/HomeComponent.css';
 // eslint-disable-next-line react/prop-types
 const Navbar = ({selection}) => {
-  const navItems = ["Home", "About", "Pricing", "Contact"];
+  const navItems = ["","Home", "About", "Pricing", "Contact"];
   const [showMenu, setShowMenu] = useState(false);
   const classExtra = selection ? 'blur' : '';
   const toggleMenu = () => {
@@ -44,15 +44,15 @@ const Navbar = ({selection}) => {
 
 
   return (
-    <div className={`container mx-auto bg-gray-50 ${classExtra}`}>
+    <div className={`container mx-auto bg-gray-50 ${classExtra} z-50`}>
       {showMenu&& (
         <div className="overlay" onClick={handleClose}></div>
       )}
       <div className="flex justify-between items-center h-[4rem] px-4 md:px-20">
         <div className="m-5">
           {/* Burger icon for small screens */}
-          <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
-          mlm
+          <div className="md:hidden cursor-pointer z-50" onClick={toggleMenu}>
+         
             
             <FontAwesomeIcon icon={faBars} />
           </div>
