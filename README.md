@@ -3,7 +3,7 @@
   <img src="/public/anydoImage.png" alt="AnyDo">
 </p>
 
-<div align="center"><h4>A modern banking platform with a user-friendly interface, enabling seamless money transfers through an easy two-step process and user search functionality.</h3></div>
+<div align="center"><h4>This project is a to-do app built using React , the standout feature of this platform is its aesthetic design.</h3></div>
 
 ## Technology used: 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -25,6 +25,6 @@ npm install
 npm run dev
 ```
 
-<div><h4>If you like the project consider giving it a star ⭐</h4></div>
+<div align="center"><h4>If you like the project consider giving it a star ⭐</h4></div>
 <div align="center"><h4>More better projects to come soon!😁👀</h4></div>
 <div align="center"><h4>Made by Thanisha Belchada</h4></div>
